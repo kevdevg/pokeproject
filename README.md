@@ -14,6 +14,8 @@ theres two available endpoints
 
 2 /pokemon/ using POST to store pokemon in database ONLY IF YOU ARE USING CELERY
 payload example
+
+
 {"name": "<pokemon name>"}
 
 if you are no using celery you can use this command to store a pokemon 
