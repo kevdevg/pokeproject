@@ -10,15 +10,15 @@ celery -A pokeproject beat -l info
 
 
 theres two available endpoints 
-1 /pokemon/<pokemon-name> using GET to retrive a pokemon
+1 /pokemon/<<pokemon-name>> using GET to retrive a pokemon
 
 2 /pokemon/ using POST to store pokemon in database ONLY IF YOU ARE USING CELERY
 payload example
 
 
-{"name": "<pokemon name>"}
+{"name": "<<pokemon name>>"}
 
 if you are no using celery you can use this command to store a pokemon 
 
-python manage.py create_pokemon <pokemon-name>
+python manage.py create_pokemon <<pokemon-name>>
 
