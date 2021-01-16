@@ -10,9 +10,12 @@ celery -A pokeproject beat -l info
 
 
 theres two available endpoints 
+
 1 /pokemon/pokemon-name using GET to retrive a pokemon
 
 2 /pokemon/ using POST to store pokemon in database ONLY IF YOU ARE USING CELERY
+
+
 payload example
 
 
